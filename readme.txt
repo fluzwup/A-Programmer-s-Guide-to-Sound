@@ -1,3 +1,9 @@
+The following text was in the 0201419726_CD.sit file I downloaded from the publisher's website, as the CD-ROM was not included in my physical copy of the book (7th printing, February, 2003).  I decompressed the contents, and have added the Linux specific source here, which I believe is within the distribution rights granted by the source code.  Should anyone wish to access the book, an on-line copy is available at the Open Library, which can be checked out here:  
+
+https://openlibrary.org/books/OL683184M/A_programmer%27s_guide_to_sound
+
+-------------------------------------------------------------------------
+
 Complete information about the contents of this CD-ROM can
 be found in Appendix A of "A Programmer's Guide to Sound"
 
