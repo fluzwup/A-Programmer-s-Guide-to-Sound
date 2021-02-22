@@ -2,6 +2,12 @@ The following text was in the 0201419726_CD.sit file I downloaded from the publi
 
 https://openlibrary.org/books/OL683184M/A_programmer%27s_guide_to_sound
 
+CD-ROM contents in StuffIt version 5 format may be found here:
+
+https://ptgmedia.pearsoncmg.com/images/0201419726/CDContents/0201419726_CD.sit
+
+I could not find any Linux source to extract the contents, so I grabbed an older version of the StuffIt Expander for Windows (version 5.5) and ran it under Wine to extract the contents.
+
 -------------------------------------------------------------------------
 
 Complete information about the contents of this CD-ROM can
