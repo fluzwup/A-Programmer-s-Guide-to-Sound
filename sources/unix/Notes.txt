@@ -1,7 +1,13 @@
+To build sample programs, run "make all".  testmatrix.cpp was not in the
+downloaded archive, but is in the makefile, so that program will fail/.
+
+
 To eanable the NCD Network Audio System (nasd), run this, as the logged in
 user:
 
-padsp nasd &
+padsp nasd&
+
+This may chew up CPU cycles, so kill it when done.
 
 To test, run:
 

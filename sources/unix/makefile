@@ -22,8 +22,8 @@ CC=g++
 
 # Options for compiler.
 # Enable a lot of GCC warning flags
-CFLAGS += -ggdb -I$(SRCDIR) -g -pedantic -W -Wall				\
-	-Wpointer-arith -Wwrite-strings		\
+CFLAGS += -ggdb -I$(SRCDIR) -g -pedantic -W -Wall	\
+	-Wpointer-arith -Wwrite-strings	\
 	-Wmissing-declarations	\
 	-Wredundant-decls -Winline -Woverloaded-virtual
 
@@ -234,6 +234,19 @@ ifftmain: $(BINDIR)/ifftmain
 
 $(BINDIR)/ifftmain: $(OBJDIR)/ifftmain.o $(OBJDIR)/fft.o
 	$(CC) $(CFLAGS) -o $@ $> $(LIBS)
+
+
+# Add custom option to 'wget'.
+# You can solve the repository indisponibility issue by set a timeout here
+WGETOPTS="--timeout=20 --tries=2"
+
+# If you want replace wget with another downloader search DOWNLOADCMD in documentation
+# at /usr/doc/slackpkg+-*/README
+#DOWNLOADCMD="wget -O"
+
+# Defines if the changelog of any 3rd party repository must be searched in parent URL when not found in base URL.
+# Can be set to "on" or "off" (default)
+SEARCH_CLOG_INPARENT=on
 
 playau: $(BINDIR)/playau
 

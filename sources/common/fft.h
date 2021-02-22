@@ -31,6 +31,7 @@ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 #include <complex>
+using namespace std;
 
 // Length must be a power of two
 void ForwardFft(complex<double> *, int length);
