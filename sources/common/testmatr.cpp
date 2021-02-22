@@ -36,6 +36,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <cstdio>
 #include <iostream>
 #include <complex>
+using namespace std;
 
 // On BSD UNIX systems, you might want to use
 // srandom/random instead of srand/rand

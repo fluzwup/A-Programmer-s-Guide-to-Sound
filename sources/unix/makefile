@@ -284,7 +284,7 @@ $(BINDIR)/logtest: $(OBJDIR)/logtest.o $(OBJDIR)/audio.o $(OBJDIR)/g711.o
 
 testmatrix: $(BINDIR)/testmatrix
 
-$(BINDIR)/testmatrix: $(SRCDIR)/testmatrix.cpp
+$(BINDIR)/testmatrix: $(SRCDIR)/testmatr.cpp
 	$(CC) $(CFLAGS) -o $@ $> $(LIBS)
 
 ###########################################################################
