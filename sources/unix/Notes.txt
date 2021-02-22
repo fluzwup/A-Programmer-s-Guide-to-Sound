@@ -1,0 +1,19 @@
+To eanable the NCD Network Audio System (nasd), run this, as the logged in
+user:
+
+padsp nasd &
+
+To test, run:
+
+./playsnd ../../samples/apollo11/mpeg/layer2.mp2 
+File: ../../samples/apollo11/mpeg/layer2.mp2...
+File Format: MPEG
+Encoding: MPEG-1 Layer 2
+Sampling Rate: 44100
+Mode: Single Channel
+Bitrate: 64000
+Emphasis: none
+Approximate Compression Ratio:  11.0:1
+Finished playing ../../samples/apollo11/mpeg/layer2.mp2.
+
+
